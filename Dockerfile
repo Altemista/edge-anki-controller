@@ -24,8 +24,6 @@
 
 FROM ubuntu:16.04
 
-MAINTAINER Oliver Koeth "oliver.koeth@nttdata.com"
-
 # Install basics
 RUN apt-get -qq update && \
     apt-get -y dist-upgrade
